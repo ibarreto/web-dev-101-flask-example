@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Awesome Blog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class=container>
+      <h1><a href="{{ url_for('index') }}">Awesome Blog!</a></h1>
+      {% block body %}{% endblock %}
+    </div>
+  </body>
+</html>
