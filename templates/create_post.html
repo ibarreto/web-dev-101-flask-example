@@ -1,0 +1,9 @@
+<h1>Create a new post:</h1>
+<form action="{{ url_for('create_post') }}", method="post">
+  <input type="text" placeholder="Post title" name="post_title">
+  <br>
+  <textarea placeholder="Post content" name="post_content"></textarea>
+  <br>
+  <input type="submit">
+</form>
+<p><a href="{{ url_for('index') }}">Go back to the main page</a></p>

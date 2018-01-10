@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, jsonify
+from flask import Flask, request, render_template, jsonify, redirect, url_for
 
 app = Flask(__name__)
 
@@ -24,6 +24,14 @@ def show_post(slug):
         return render_template('not_found.html')
     return render_template('post.html', post=post)
 
-@app.route('/posts', methods=['POST'])
+@app.route('/create_post', methods=['GET', 'POST'])
 def create_post():
-    return redirect(url_for('index'))
+    if request.method == 'GET':
+        return render_template('create_post.html')
+    elif request.method == 'POST':
+        post_title = request.form['post_title']
+        post_content = request.form['post_content']
+        post_slug = '-'.join(post_title.lower().split())
+        posts.insert(0, {'title': post_title, 'content': post_content, 'slug': post_slug})
+
+        return redirect(url_for('index'))
