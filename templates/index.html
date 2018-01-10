@@ -1,0 +1,4 @@
+{% for post in posts %}
+  <h2><a href="{{ url_for('show_post', slug=post.slug) }}">{{ post.title }}</a></h2>
+  <p>{{ post.content }}</p>
+{% endfor %}
