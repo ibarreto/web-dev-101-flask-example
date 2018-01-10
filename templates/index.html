@@ -1,7 +1,9 @@
-<h1>Awesome Blog!</h1>
-<a href="{{ url_for('create_post') }}">Create New Post</a>
+{% extends "layout.html" %}
+{% block body %}
+  <a href="{{ url_for('create_post') }}">Create New Post</a>
 
-{% for post in posts %}
-  <h2>{{ post.title }}</h2>
-  <p>{{ post.content[0:100] + '...' }} <a href="{{ url_for('show_post', slug=post.slug) }}">read more</a></p>
-{% endfor %}
+  {% for post in posts %}
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.content[0:100] + '...' }} <a href="{{ url_for('show_post', slug=post.slug) }}">read more</a></p>
+  {% endfor %}
+{% endblock %}
