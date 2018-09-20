@@ -11,9 +11,15 @@ posts = [
      'content': "Lorem ipsum dolor amet offal marfa next level, pug kitsch hot chicken woke blog mixtape lyft snackwave. Readymade pok pok fanny pack art party leggings pork belly cred schlitz ramps mlkshk letterpress salvia. Slow-carb food truck lomo cardigan. Shaman DIY flannel bushwick typewriter. Jianbing shaman hoodie iceland cronut 3 wolf moon wayfarers tbh. Palo santo thundercats edison bulb, kickstarter whatever pitchfork iPhone. Slow-carb gluten-free venmo succulents pork belly activated charcoal mustache taxidermy pug migas af sriracha. Prism vexillologist etsy, kale chips wayfarers waistcoat lumbersexual organic. YOLO twee cliche hexagon art party. Mlkshk readymade roof party selfies heirloom. Oh. You need a little dummy text for your mockup? How quaint.",
      'slug': 'my-first-post'
     },
+    {
      'title': 'My third post',
      'content': "Lorem ipsum dolor amet offal marfa next level, pug kitsch hot chicken woke blog mixtape lyft snackwave. Readymade pok pok fanny pack art party leggings pork belly cred schlitz ramps mlkshk letterpress salvia. Slow-carb food truck lomo cardigan. Shaman DIY flannel bushwick typewriter. Jianbing shaman hoodie iceland cronut 3 wolf moon wayfarers tbh. Palo santo thundercats edison bulb, kickstarter whatever pitchfork iPhone. Slow-carb gluten-free venmo succulents pork belly activated charcoal mustache taxidermy pug migas af sriracha. Prism vexillologist etsy, kale chips wayfarers waistcoat lumbersexual organic. YOLO twee cliche hexagon art party. Mlkshk readymade roof party selfies heirloom. Oh. You need a little dummy text for your mockup? How quaint.",
      'slug': 'my-thrid-post'
+    },
+    {
+     'title': 'My fourth post',
+     'content': "Lorem ipsum dolor amet offal marfa next level, pug kitsch hot chicken woke blog mixtape lyft snackwave. Readymade pok pok fanny pack art party leggings pork belly cred schlitz ramps mlkshk letterpress salvia. Slow-carb food truck lomo cardigan. Shaman DIY flannel bushwick typewriter. Jianbing shaman hoodie iceland cronut 3 wolf moon wayfarers tbh. Palo santo thundercats edison bulb, kickstarter whatever pitchfork iPhone. Slow-carb gluten-free venmo succulents pork belly activated charcoal mustache taxidermy pug migas af sriracha. Prism vexillologist etsy, kale chips wayfarers waistcoat lumbersexual organic. YOLO twee cliche hexagon art party. Mlkshk readymade roof party selfies heirloom. Oh. You need a little dummy text for your mockup? How quaint.",
+     'slug': 'my-fourth-post'
     }
 ]
 
